@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+.display {
+    background: url(Desplay/carousel.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.conteiner1 {
+    height: 500px;
+    width: 500px;
+    padding: 50px auto 10px auto;
+    border: solid rgba(255, 255, 255, 0.245) 2px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.slider {
+    /* margin: 70px auto; */
+    display: flex;
+    height: 500px;
+    width: 3000px;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+
+.conteiner2 {
+    display: flex;
+    justify-content: center;
+    height: 7%;
+    padding-top: 22px;
+}
+
+.btn {
+ background: none;
+ cursor: pointer;
+}
+
+.pageBox {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(85, 85, 85);
+    font-size: 150%;
+    /* margin-right: 50px; */
+}
+
+.page {
+    color: rgb(177, 177, 177);
+    background-color: rgb(51, 52, 52);
+}
+
+.page:hover {
+   color: rgb(27, 26, 26);
+   background-color: rgb(187, 195, 195);
+}
